@@ -45,8 +45,8 @@ function addStudent() {
                         <td>${emailID}</td>
                         <td>${contactNo}</td>
                         <td>
-                            <button onclick="editStudent(this)">Edit</button>
-                            <button onclick="deleteStudent(this)">Delete</button>
+                            <button onclick="editStudent(this)"><i class="fa-solid fa-pen-to-square"></i></button>
+                            <button onclick="deleteStudent(this)"><i class="fa-solid fa-trash"></i></button>
                         </td>`;
 
     }
@@ -113,8 +113,8 @@ function loadFromLocalStorage() {
                             <td>${student.email}</td>
                             <td>${student.contact}</td>
                             <td>
-                                <button onclick="editStudent(this)">Edit</button>
-                                <button onclick="deleteStudent(this)">Delete</button>
+                                <button onclick="editStudent(this)"><i class="fa-solid fa-pen-to-square"></i></button>
+                                <button onclick="deleteStudent(this)"><i class="fa-solid fa-trash"></i></button>
                             </td>`;
     });
 }
